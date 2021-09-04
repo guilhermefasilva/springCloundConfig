@@ -23,6 +23,6 @@ spring:
           predicates:
             - Path=/clients/**
         - id: microservice-adress-catalog
-          uri: lb://MICROSERVICE-ADRESS-CATALOG
+          uri: lb://MICROSERVICE-ADDRESS-CATALOG
           predicates:
             - Path=/enderecos/**
